@@ -1,0 +1,7 @@
+body{
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Russo One', sans-serif;
+    height: 100%;
+}
