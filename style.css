@@ -1,11 +1,84 @@
-body{
-    background-color: midnightblue;
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    font-family: 'Russo One', sans-serif;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(39, 15, 63);
 }
 
-div.home{
+.conteudo-header {
+    background-color: rgb(71, 40, 102);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.conteudo-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.conteudo-header header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-header header .logo img {
+    max-width: 100px; 
+    margin-right: 20px; 
+}
+
+
+.conteudo-header header .logo a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.conteudo-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.conteudo-header header nav ul li a {
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    text-align: none;
+    font-size: 20px;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93.5vh; /* Define a altura para preencher de cima a baixo */
+    width: 80%; /* Define a largura do contêiner com espaços laterais */
+    max-width: 900px; /* Define a largura máxima da coluna */
+    background-color: indigo;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-  }
+}
+
+.column {
+    width: 100%;
+}
+
+/* Adicione estilos adicionais para o conteúdo da coluna, se necessário */
