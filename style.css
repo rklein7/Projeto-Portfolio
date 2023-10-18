@@ -1,145 +1,175 @@
 /* Defina as cores e fontes principais */
 :root {
-    --primary-background-color: rgb(39, 15, 63);
-    --header-background-color: rgb(39, 15, 63);
-    --header-text-color: white;
-    --font-family: 'Bebas Neue', sans-serif;
-  }
-  
-  /* Estilos gerais para o corpo da página */
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: var(--primary-background-color);
-  }
-  
-  /* Estilos para o cabeçalho */
-  .conteudo-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-  }
-  
-  .conteudo-header header {
-    height: 80px;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: var(--header-background-color);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .conteudo-header header .logo a {
-    font-family: var(--font-family);
-    font-size: 36px;
-    color: var(--header-text-color);
-    text-decoration: none;
-  }
-  
-  .conteudo-header header ul {
-    list-style: none;
-    margin: 0;
-    display: flex;
-  }
-  
-  .conteudo-header header ul li {
-    margin-right: 15px;
-  }
-  
-  .conteudo-header header nav ul li a {
-    font-family: var(--font-family);
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--header-text-color);
-    transition: color 0.3s, font-size 0.3s;
-  }
-  
-  .conteudo-header header nav ul li a:hover {
-    color: rgb(39, 15, 63);
-    font-size: 21px;
-  }
-  
-  .containerzao {
-    font-family: var(--font-family);
-    color: var(--header-text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    width: 100%;
-    max-width: 1000px;
-    background-color: var(--primary-background-color);
-    padding: 20px;
-    border: none; /* Remova as bordas definindo 'border' como 'none' */
-    border-radius: 0; /* Remova também a borda arredondada se necessário */
-    box-shadow: none; /* Remova a sombra definindo 'box-shadow' como 'none' */
-  }
+  --primary-background-color: rgb(39, 15, 63);
+  --header-background-color: #553773;
+  --header-text-color: white;
+  --font-family: 'Bebas Neue', sans-serif;
+}
 
-  .h1{
-    display: flex;
-    padding-bottom: 400px;
-    margin-left: 0px;
-    width: 50%;
-  }
+/* Estilos gerais para o corpo da página */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--primary-background-color);
+}
 
-  .apresentacao{
-    display: flex;
-    font-size: x-large;
-    width: 70%;
-    padding-bottom: 300px;
-  }
-  
-  
-  .container1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30vh;
-    width: 90%;
-    max-width: 900px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-  .column1 {
-    width: 100%;
-    font-family: var(--font-family);
-    padding-bottom: 215px;
-    font-size: 14px;
-    color: var(--primary-background-color);
-  }
-  
-  /* Estilos para links */
-  #nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  #nav li {
-    margin-right: 15px;
-  }
-  
-  #nav a {
-    text-decoration: none;
-    color: var(--header-text-color);
-    transition: color 0.3s, font-size 0.3s;
-    font-size: 20px;
-  }
-  
-  #nav a:hover {
-    color: cyan;
-    font-size: 22px;
-  }
-  
+/* Estilos para o cabeçalho */
+.conteudo-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.conteudo-header header {
+  height: 70px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--header-background-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+}
+
+.conteudo-header header .logo a {
+  font-family: var(--font-family);
+  font-size: 36px;
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+.conteudo-header header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.conteudo-header header ul li {
+  margin-right: 15px;
+}
+
+.conteudo-header header nav ul li a {
+  font-family: var(--font-family);
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--header-text-color);
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.conteudo-header header nav ul li a:hover {
+  color: rgb(39, 15, 63);
+  font-size: 21px;
+}
+
+.containerzao {
+  font-family: var(--font-family);
+  color: var(--header-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  max-width: 1000px;
+  background-color: var(--primary-background-color);
+  padding: 20px;
+  border: none; /* Remova as bordas definindo 'border' como 'none' */
+  border-radius: 0; /* Remova também a borda arredondada se necessário */
+  box-shadow: none; /* Remova a sombra definindo 'box-shadow' como 'none' */
+}
+
+.h1Sobre {
+  display: flex;
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: var(--header-text-color);
+  text-decoration: none;
+  position: absolute; /* Set the position to absolute */
+  top: 160px; /* Adjust the top position as needed */
+  left: 325px; /* Adjust the left position as needed */
+  z-index: 2; /* Set a higher z-index to appear on top */
+}
+
+.apresentacaoSobre {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  width: 65%;
+  padding-left: 20px;
+  background-color: var(--primary-background-color);
+}
+
+.containerImagem {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+  margin-top: 0px;
+  width: 35%;
+  max-width: 1000px;
+  background-color: var(--primary-background-color);
+  padding: 20px;
+  border: none;
+  border-radius: 0;
+  position: relative; /* Set the position to relative */
+  z-index: 1; /* Set a lower z-index so it's behind .h1Sobre */
+}
+
+.containerImagem img {
+  max-width: 100%; /* Set the image's max-width to 100% of its container */
+  max-height: 100%; /* Set the image's max-height to 100% of its container */
+  border: 3px solid #553773;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 90%;
+  max-width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.column1 {
+  width: 100%;
+  font-family: var(--font-family);
+  padding-bottom: 215px;
+  font-size: 14px;
+  color: var(--primary-background-color);
+}
+
+/* Estilos para links */
+#nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#nav li {
+  margin-right: 15px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  transition: color 0.3s, font-size 0.3s;
+  font-size: 20px;
+}
+
+#nav a:hover {
+  color: cyan;
+  font-size: 22px;
+}
