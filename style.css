@@ -9,7 +9,7 @@ body {
 }
 
 .conteudo-header {
-    background-color: rgb(71, 40, 102);
+
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,6 +18,7 @@ body {
 }
 
 .conteudo-header header {
+    height: 80px;
     max-width: 1100px;
     margin: auto;
     display: flex;
@@ -63,22 +64,82 @@ body {
 
 
 
-.container {
+.h1{
+    display: flex;
+    padding-bottom: 500px;
+    margin: 170px;
+    width: 100%;
+}
+
+.apresentacao{
+    display: flex;
+    padding-bottom: 400px;
+    font-size: x-large;
+    margin-right: 170px;
+}
+
+
+.containerzao {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 93.5vh; /* Define a altura para preencher de cima a baixo */
-    width: 80%; /* Define a largura do contêiner com espaços laterais */
+    margin-top: auto;
+    height: 80vh; /* Define a altura para preencher de cima a baixo */
+    
+    width: 100%; /* Define a largura do contêiner com espaços laterais */
+    max-width: 100000000px; /* Define a largura máxima da coluna */
+    background-color: rgb(39, 15, 63);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Define a altura para preencher de cima a baixo */
+    width: 90%; /* Define a largura do contêiner com espaços laterais */
     max-width: 900px; /* Define a largura máxima da coluna */
-    background-color: indigo;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-.column {
+.column1 {
     width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-bottom: 215px;
+    font-size: 14px;
+    color: rgb(39, 15, 63);
 }
 
 /* Adicione estilos adicionais para o conteúdo da coluna, se necessário */
+
+#nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav li {
+    margin-right: 15px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, font-size 0.3s; /* Adiciona uma transição de cor de 0.3 segundos */
+    font-size: 20px;
+}   
+
+#nav a:hover {
+    color: rgb(39, 15, 63); /* Define a cor ao passar o mouse */
+    font-size: 21px;
+}
