@@ -1,145 +1,145 @@
-body {
+/* Defina as cores e fontes principais */
+:root {
+    --primary-background-color: rgb(39, 15, 63);
+    --header-background-color: rgb(39, 15, 63);
+    --header-text-color: white;
+    --font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  /* Estilos gerais para o corpo da página */
+  body {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(39, 15, 63);
-}
-
-.conteudo-header {
-
+    background-color: var(--primary-background-color);
+  }
+  
+  /* Estilos para o cabeçalho */
+  .conteudo-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
-}
-
-.conteudo-header header {
+  }
+  
+  .conteudo-header header {
     height: 80px;
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-}
-
-.conteudo-header header .logo {
+    background-color: var(--header-background-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .conteudo-header header .logo a {
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--header-text-color);
+    text-decoration: none;
+  }
+  
+  .conteudo-header header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .conteudo-header header ul li {
+    margin-right: 15px;
+  }
+  
+  .conteudo-header header nav ul li a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--header-text-color);
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .conteudo-header header nav ul li a:hover {
+    color: rgb(39, 15, 63);
+    font-size: 21px;
+  }
+  
+  .containerzao {
+    font-family: var(--font-family);
+    color: var(--header-text-color);
     display: flex;
     align-items: center;
-}
-
-.conteudo-header header .logo img {
-    max-width: 100px; 
-    margin-right: 20px; 
-}
-
-
-.conteudo-header header .logo a {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 36px;
-    color: white;
-    text-decoration: none;
-    
-}
-
-.conteudo-header header ul {
-    display: flex;
-    list-style: none;
-}
-
-.conteudo-header header nav ul li a {
-    font-family: 'Bebas Neue', sans-serif;
-    text-decoration: none;
-    text-align: none;
-    font-size: 20px;
-    color: white;
-    margin: 0 15px;
-    padding: 3px;
-    transition: .5s;
-}
-
-
-
-.h1{
-    display: flex;
-    padding-bottom: 500px;
-    margin: 170px;
+    justify-content: center;
+    height: 80vh;
     width: 100%;
-}
+    max-width: 1000px;
+    background-color: var(--primary-background-color);
+    padding: 20px;
+    border: none; /* Remova as bordas definindo 'border' como 'none' */
+    border-radius: 0; /* Remova também a borda arredondada se necessário */
+    box-shadow: none; /* Remova a sombra definindo 'box-shadow' como 'none' */
+  }
 
-.apresentacao{
+  .h1{
     display: flex;
     padding-bottom: 400px;
+    margin-left: 0px;
+    width: 50%;
+  }
+
+  .apresentacao{
+    display: flex;
     font-size: x-large;
-    margin-right: 170px;
-}
-
-
-.containerzao {
-    
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
+    width: 70%;
+    padding-bottom: 300px;
+  }
+  
+  
+  .container1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
-    height: 80vh; /* Define a altura para preencher de cima a baixo */
-    
-    width: 100%; /* Define a largura do contêiner com espaços laterais */
-    max-width: 100000000px; /* Define a largura máxima da coluna */
-    background-color: rgb(39, 15, 63);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
-}
-
-
-.container1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30vh; /* Define a altura para preencher de cima a baixo */
-    width: 90%; /* Define a largura do contêiner com espaços laterais */
-    max-width: 900px; /* Define a largura máxima da coluna */
+    height: 30vh;
+    width: 90%;
+    max-width: 900px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-}
-
-.column1 {
+  }
+  
+  .column1 {
     width: 100%;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--font-family);
     padding-bottom: 215px;
     font-size: 14px;
-    color: rgb(39, 15, 63);
-}
-
-/* Adicione estilos adicionais para o conteúdo da coluna, se necessário */
-
-#nav ul {
+    color: var(--primary-background-color);
+  }
+  
+  /* Estilos para links */
+  #nav ul {
     list-style: none;
     display: flex;
-}
-
-#nav li {
+  }
+  
+  #nav li {
     margin-right: 15px;
-}
-
-#nav a {
+  }
+  
+  #nav a {
     text-decoration: none;
-    color: white;
-    transition: color 0.3s, font-size 0.3s; /* Adiciona uma transição de cor de 0.3 segundos */
+    color: var(--header-text-color);
+    transition: color 0.3s, font-size 0.3s;
     font-size: 20px;
-}   
-
-#nav a:hover {
-    color: rgb(39, 15, 63); /* Define a cor ao passar o mouse */
-    font-size: 21px;
-}
+  }
+  
+  #nav a:hover {
+    color: cyan;
+    font-size: 22px;
+  }
+  
