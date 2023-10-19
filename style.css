@@ -28,7 +28,7 @@ body {
 
 .conteudo-header header {
   height: 70px;
-  max-width: 1100px;
+  max-width: 1175px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@ body {
   padding: 15px 20px;
   background-color: var(--header-background-color);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 35px;
+  border-radius: 10px;
 }
 
 .conteudo-header header .logo a {
@@ -73,28 +73,25 @@ body {
   font-family: var(--font-family);
   color: var(--header-text-color);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
   width: 100%;
   max-width: 1000px;
   background-color: var(--primary-background-color);
   padding: 20px;
-  border: none; /* Remova as bordas definindo 'border' como 'none' */
-  border-radius: 0; /* Remova também a borda arredondada se necessário */
-  box-shadow: none; /* Remova a sombra definindo 'box-shadow' como 'none' */
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .h1Sobre {
-  display: flex;
   font-family: var(--font-family);
-  font-size: 15px;
+  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
   color: var(--header-text-color);
   text-decoration: none;
-  position: absolute; /* Set the position to absolute */
-  top: 160px; /* Adjust the top position as needed */
-  left: 325px; /* Adjust the left position as needed */
-  z-index: 2; /* Set a higher z-index to appear on top */
+  text-align: center; /* Centralize o texto horizontalmente */
+  margin-top: 80px; /* Adicione margem superior para posicioná-lo abaixo da navbar */
 }
 
 .apresentacaoSobre {
@@ -105,6 +102,7 @@ body {
   width: 65%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
+  margin-bottom: 20px;
 }
 
 .containerImagem {
@@ -113,15 +111,15 @@ body {
   align-items: center;
   justify-content: center;
   height: 35vh;
-  margin-top: 0px;
   width: 35%;
   max-width: 1000px;
   background-color: var(--primary-background-color);
   padding: 20px;
   border: none;
   border-radius: 0;
-  position: relative; /* Set the position to relative */
-  z-index: 1; /* Set a lower z-index so it's behind .h1Sobre */
+  position: relative;
+  z-index: 1;
+  margin-top: 0; /* Mantenha a margem superior da imagem em 0 */
 }
 
 .containerImagem img {
@@ -173,3 +171,39 @@ body {
   color: cyan;
   font-size: 22px;
 }
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interesses-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os interesses */
+}
+
+.interesse {
+  background-color: #553773;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha verticalmente o conteúdo */
+  transition: background-color 0.3s;
+}
+
+.interesse img {
+  height: 42px; /* Defina a altura desejada */
+  width: 42px; /* Defina a largura desejada */
+  margin-right: 10px; /* Adicione uma margem à direita para criar espaço entre a imagem e o texto */
+}
+
+/* Outros estilos permanecem inalterados */
