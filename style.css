@@ -168,7 +168,7 @@ body {
 }
 
 #nav a:hover {
-  color: cyan;
+  color: rgb(109, 255, 255);
   font-size: 22px;
 }
 
@@ -204,6 +204,41 @@ body {
   height: 42px; /* Defina a altura desejada */
   width: 42px; /* Defina a largura desejada */
   margin-right: 10px; /* Adicione uma margem à direita para criar espaço entre a imagem e o texto */
+}
+
+.interesse:hover {
+  background-color: rgb(109, 255, 255); /* Altere a cor de fundo no hover conforme desejado */
+  color: black;
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho no hover */
+
+}
+
+.infosPessoais {
+  background-color: var(--primary-background-color);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 45px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px; /* Largura da div de informações */
+}
+
+.info {
+  text-align: left;
+}
+
+.info h3 {
+  text-align: center;
+  margin: 0;
+  color: white
+}
+
+.info p {
+  text-align: center;
+  font-size: medium;
+  margin: 0;
+  color: grey
 }
 
 /* Outros estilos permanecem inalterados */
