@@ -245,7 +245,7 @@ body {
   background-color: #553773;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   align-items: center;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -296,6 +296,42 @@ body {
   font-size: medium;
   margin: 0;
   color: grey
+}
+
+.projetosContainer{
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding-bottom: 30px;
+}
+
+.projeto{
+  background-color: #553773;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.3s;
+
+}
+
+.apresentacaoProjetos {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  font-size: larger;
+  width: 65%;
+  padding-left: 20px;
+  background-color: var(--primary-background-color);
+  margin-bottom: 20px;
 }
 
 .skillsContainer {
