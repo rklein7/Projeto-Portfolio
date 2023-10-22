@@ -389,3 +389,63 @@ body {
   justify-content: center;
   transition: background-color 0.3s;
 }
+
+.apresentacaoContato {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  padding-top: 0px;
+  flex-direction: column;
+  font-size: larger;
+  width: 65%;
+  padding-left: 20px;
+  background-color: var(--primary-background-color);
+  margin-bottom: 50px;
+}
+
+.contatoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding-bottom: 30px;
+}
+
+.contato img {
+  height: 42px; 
+  width: 42px; 
+  margin-right: 10px; 
+}
+
+.contato:hover {
+  background-color: rgb(141, 250, 250); 
+  color: #553773;
+  transform: scale(1.1); 
+
+}
+
+
+
+.contato {
+  background-color: #553773;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.contato a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.contato a:hover {
+  color: #553773;;
+}
