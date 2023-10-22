@@ -79,14 +79,14 @@ body {
 }
 
 .linksContainer {
-  display: flex; /* Exibe os links um ao lado do outro */
-  justify-content: center; /* Centraliza os links horizontalmente */
+  display: flex; 
+  justify-content: center; 
   gap: 20px;
 }
 
 .link img {
   border: none;
-  padding-right: 20px; /* Adicione preenchimento à direita das imagens para afastá-las dos links */
+  padding-right: 20px; 
   height: 60px;
   width: 60px;
   justify-content: center;
@@ -98,10 +98,10 @@ body {
   font-family: var(--font-family);
   font-size: 20px;
   color: white;
-  transition: transform 0.3s; /* Adiciona uma transição suave para a propriedade transform */
+  transition: transform 0.3s; 
 }
 
-/* Estilo para os links dentro de .apresentacaoHome quando estiverem no estado hover */
+
 .link img:hover {
   height: 70px;
   width: 70px;
