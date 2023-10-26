@@ -1,6 +1,6 @@
 :root {
-  --primary-background-color: rgb(39, 15, 63);
-  --header-background-color: #553773;
+  --primary-background-color: #081226;
+  --header-background-color: #11538C;
   --header-text-color: white;
   --font-family: 'Bebas Neue', sans-serif;
 }
@@ -71,7 +71,7 @@ body {
 .apresentacaoHome {
   font-family: var(--font-family);
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -155,8 +155,8 @@ body {
   font-family: 'PT Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: larger;
-  width: 65%;
+  font-size: x-large;
+  width: 80%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
   margin-bottom: 20px;
@@ -182,7 +182,7 @@ body {
 .containerImagem img {
   max-width: 100%; 
   max-height: 100%; 
-  border: 3px solid #553773;
+  border: 3px solid #2493BF;
 }
 
 .container1 {
@@ -221,12 +221,12 @@ body {
   text-decoration: none;
   color: var(--header-text-color);
   transition: color 0.3s, font-size 0.3s;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #nav a:hover {
-  color: rgb(109, 255, 255);
-  font-size: 22px;
+  color: black;
+  font-size: 26px;
 }
 
 .conteudo {
@@ -242,7 +242,7 @@ body {
 }
 
 .interesse {
-  background-color: #553773;
+  background-color: #2493BF;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 15px;
@@ -265,7 +265,7 @@ body {
 
 .interesse:hover {
   background-color: rgb(141, 250, 250); 
-  color: #553773;
+  color: black;
   transform: scale(1.1); 
 
 }
@@ -306,7 +306,7 @@ body {
 }
 
 .projeto{
-  background-color: #553773;
+  background-color:#2493BF;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 5px;
@@ -322,12 +322,18 @@ body {
 
 }
 
+.projeto img {
+  height: 150px; 
+  width: 200px; 
+  margin-top: 10px;
+}
+
 .apresentacaoProjetos {
   font-family: 'PT Sans', sans-serif;
   display: flex;
   padding-top: 50px;
   flex-direction: column;
-  font-size: larger;
+  font-size: x-large;
   width: 65%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
@@ -346,7 +352,7 @@ body {
   display: flex;
   padding-top: 50px;
   flex-direction: column;
-  font-size: larger;
+  font-size: x-large;
   width: 65%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
@@ -369,13 +375,13 @@ body {
 
 .skill:hover {
   background-color: rgb(141, 250, 250); 
-  color: #553773;
+  color: black;
   transform: scale(1.1); 
 
 }
 
 .skill {
-  background-color: #553773;
+  background-color: #2493BF;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 5px;
@@ -395,7 +401,7 @@ body {
   display: flex;
   padding-top: 0px;
   flex-direction: column;
-  font-size: larger;
+  font-size: x-large;
   width: 65%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
@@ -417,7 +423,7 @@ body {
 
 .contato:hover {
   background-color: rgb(141, 250, 250); 
-  color: #553773;
+  color: black;
   transform: scale(1.1); 
 
 }
@@ -425,14 +431,14 @@ body {
 
 
 .contato {
-  background-color: #553773;
+  background-color: #2493BF;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 5px;
   align-items: center;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  width: 270px;
+  width: 250px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -442,10 +448,10 @@ body {
 
 .contato a {
   text-decoration: none;
-  color: white;
+  color: white ;
 
 }
 
 .contato a:hover {
-  color: #553773;;
+  color: black;
 }
