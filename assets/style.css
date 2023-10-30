@@ -1,11 +1,13 @@
 /*---------------------------------- INFOS GENÉRICAS ----------------------------------*/
 
 :root {
-  --primary-background-color: #081226;
-  --header-background-color: #081226;
+  --primary-background-color: black;
+  --header-background-color:black;
   --header-text-color: white;
   --font-family: 'Bebas Neue', sans-serif;
 }
+
+/* #081226 */
 
 
 body {
@@ -36,7 +38,7 @@ body {
   align-items: center;
   padding: 15px 20px;
   background-color: var(--header-background-color);
-  box-shadow: 0 2px 8px #11538C;
+  box-shadow: 0 2px 8px indigo;
   border-radius: 10px;
 }
 
@@ -66,7 +68,7 @@ body {
 }
 
 .conteudo-header header nav ul li a:hover {
-  color: #11538C;
+  color: indigo;
   font-size: 21px;
 }
 
@@ -105,7 +107,7 @@ body {
   align-items: center;
   padding: 15px 20px;
   background-color: var(--header-background-color);
-  box-shadow: 0 2px 8px #11538C;
+  box-shadow: 0 2px 8px indigo;
   border-radius: 10px;
 }
 
@@ -135,7 +137,7 @@ body {
 }
 
 .conteudo-header header nav ul li a:hover {
-  color: #11538C;
+  color: indigo;
   font-size: 21px;
 }
 
@@ -156,7 +158,7 @@ body {
 }
 
 #nav a:hover {
-  color: #11538C;
+  color: indigo;
   font-size: 26px;
 }
 
@@ -165,7 +167,7 @@ body {
 .apresentacaoHome {
   font-family: var(--font-family);
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -177,7 +179,7 @@ body {
   padding-bottom: 50px;
   font-family: var(--font-family);
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -274,7 +276,7 @@ body {
 .containerImagem img {
   max-width: 100%; 
   max-height: 100%; 
-  box-shadow: 0 0 10px #11538C ;
+  box-shadow: 0 0 10px indigo ;
 }
 
 .conteudo {
@@ -303,11 +305,12 @@ body {
 
 .interesse {
   background-color: var(--primary-background-color);
-  box-shadow: 0 0 10px #11538C ;
+  box-shadow: 0 0 10px indigo ;
   border-radius: 10px;
-  padding: 15px;
+  padding: 25px;
   align-items: center;
   text-align: center;
+  font-size: medium;
   width: 240px;
   color: white;
   display: flex;
@@ -323,7 +326,7 @@ body {
 }
 
 .interesse:hover {
-  background-color: rgb(141, 250, 250); 
+  background-color: indigo; 
   color: black;
   transform: scale(1.1); 
 
@@ -360,6 +363,7 @@ body {
 /*---------------------------------- PROJETOS ----------------------------------*/
 
 .projetosContainer{
+  text-decoration: var(--primary-background-color);
   display: flex;
   justify-content: center;
   gap: 20px; 
@@ -367,13 +371,14 @@ body {
 }
 
 .projeto{
-  background-color: #081226;
-
+  text-decoration: none;
+  background-color: black;
+  text-decoration: none;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
   align-items: center;
   text-align: center;
-  box-shadow: 0 0 10px #11538C ;
+  box-shadow: 0 0 10px indigo ;
   width: 250px;
   color: white;
   display: flex;
@@ -384,7 +389,7 @@ body {
 }
 
 .projeto:hover {
-  background-color: rgb(141, 250, 250); 
+  background-color: indigo; 
   color: black;
   transform: scale(1.1); 
 
@@ -407,6 +412,20 @@ body {
   background-color: var(--primary-background-color);
   margin-bottom: 70px;
 }
+
+.projetosContainer a {
+  text-decoration: none;
+}
+
+.projeto a {
+  color: white;
+  text-decoration: none;
+}
+
+.projeto a :hover{
+  color:#000
+}
+
 
 /*---------------------------------- SKILLS ----------------------------------*/
 
@@ -444,7 +463,7 @@ body {
 }
 
 .skill:hover {
-  background-color: rgb(141, 250, 250); 
+  background-color: indigo; 
   color: black;
   transform: scale(1.1); 
 
@@ -452,9 +471,9 @@ body {
 
 .skill {
   background-color: var(--primary-background-color);
-  box-shadow: 0 0 10px #11538C ;
+  box-shadow: 0 0 10px indigo ;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   align-items: center;
   text-align: center;  width: 240px;
   color: white;
@@ -477,6 +496,7 @@ body {
   background-color: var(--primary-background-color);
   margin-bottom: 20px;
 }
+
 
 /*---------------------------------- CONTATO ----------------------------------*/
 
@@ -506,20 +526,20 @@ body {
 }
 
 .contato:hover {
-  background-color: rgb(141, 250, 250); 
+  background-color: indigo; 
   color: black;
   transform: scale(1.1); 
 
 }
 
 .contato {
-  background-color: #2493BF;
-  border: 1px solid #ccc;
+  background-color: black;
+  box-shadow: 0 0 10px indigo ;
   border-radius: 10px;
   padding: 5px;
   align-items: center;
   text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px indigo;
   width: 250px;
   color: white;
   display: flex;
