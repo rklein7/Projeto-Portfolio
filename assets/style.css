@@ -558,6 +558,15 @@ body {
   color: black;
 }
 
+.contatoContainer a {
+  text-decoration: none;
+}
+
+.contato a {
+  color: white;
+  text-decoration: none;
+}
+
 /*---------------------------------- FOOTER ----------------------------------*/
 
 footer {
