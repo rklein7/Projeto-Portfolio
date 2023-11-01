@@ -134,6 +134,7 @@ body {
   font-size: 20px;
   color: var(--header-text-color);
   transition: color 0.3s, font-size 0.3s;
+  margin-right: 15px;
 }
 
 .conteudo-header header nav ul li a:hover {
@@ -195,7 +196,8 @@ body {
 
 .link img {
   border: none;
-  padding-right: 20px; 
+  padding-right: 30px; 
+  padding-left: 30px;
   height: 60px;
   width: 60px;
   justify-content: center;
@@ -277,6 +279,7 @@ body {
   max-width: 100%; 
   max-height: 100%; 
   box-shadow: 0 0 10px indigo ;
+  border-radius: 5px;
 }
 
 .conteudo {
@@ -307,7 +310,7 @@ body {
   background-color: var(--primary-background-color);
   box-shadow: 0 0 10px indigo ;
   border-radius: 5px;
-  padding: 25px;
+  padding: 20px;
   align-items: center;
   text-align: center;
   font-size: medium;
@@ -322,7 +325,6 @@ body {
 .interesse img {
   height: 42px; 
   width: 42px; 
-  margin-right: 10px; 
 }
 
 .interesse:hover {
@@ -336,7 +338,7 @@ body {
   background-color: var(--primary-background-color);
   text-align: center;
   padding: 20px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -396,8 +398,8 @@ body {
 }
 
 .projeto img {
-  height: 100px; 
-  width: 100px; 
+  height: 85px; 
+  width: 85px; 
   margin-top: 10px;
 }
 
@@ -460,7 +462,6 @@ body {
 .skill img {
   height: 50px; 
   width: 50px; 
-  margin-right: 10px; 
 }
 
 .skill:hover {
@@ -474,7 +475,7 @@ body {
   background-color: var(--primary-background-color);
   box-shadow: 0 0 10px indigo ;
   border-radius: 10px;
-  padding: 15px;
+  padding: 18px;
   align-items: center;
   text-align: center;  width: 240px;
   color: white;
@@ -521,9 +522,8 @@ body {
 }
 
 .contato img {
-  height: 42px; 
-  width: 42px; 
-  margin-right: 10px; 
+  height: 38px; 
+  width: 38px; 
 }
 
 .contato:hover {
@@ -537,7 +537,7 @@ body {
   background-color: black;
   box-shadow: 0 0 10px indigo ;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
   align-items: center;
   text-align: center;
   box-shadow: 0 0 5px indigo;
@@ -571,17 +571,13 @@ body {
 /*---------------------------------- FOOTER ----------------------------------*/
 
 footer {
-  padding-top: 150px;
   font-family: var(--font-family);
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
   color: white;
   text-align: center;
-  height: 160px; 
-  padding: 0;
 }
 
 .conteudoFooter {
@@ -591,11 +587,6 @@ footer {
   align-items: center; 
 }
 
-.emails {
-  display: flex;
-  flex-direction: column; 
-  margin-left: 10px; 
-}
 
 
 
