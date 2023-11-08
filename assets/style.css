@@ -177,7 +177,7 @@ body {
 
 .apresentacaoEscritaHome{
   padding: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   font-family: var(--font-family);
   color: white;
   font-size: 25px;
@@ -185,6 +185,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 
 .linksContainer {
@@ -320,6 +321,7 @@ body {
   flex-direction: column;
   justify-content: center; 
   transition: background-color 0.3s;
+  margin-bottom: 40px;
 }
 
 .interesse img {
