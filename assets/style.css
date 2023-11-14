@@ -255,6 +255,29 @@ body {
   transition: background-color 0.3s;
 }
 
+
+.apresentacaoEscritaHome {
+  /* ... outras propriedades ... */
+
+  transition: transform 1s ease-in-out;
+  transform: translateY(350%);
+}
+
+.apresentacaoEscritaHome.slide-in {
+  transform: translateY(0);
+}
+
+.linksContainer {
+  /* ... outras propriedades ... */
+
+  transition: transform 1s ease-in-out;
+  transform: translateY(-350%);
+}
+
+.linksContainer.slide-in {
+  transform: translateY(0);
+}
+
 /*---------------------------------- SOBRE ----------------------------------*/
 
 .h1Sobre {
@@ -333,7 +356,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: medium;
-  width: 230px;
+  width: 240px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -418,8 +441,8 @@ body {
 }
 
 .projeto img {
-  height: 85px; 
-  width: 85px; 
+  height: 95px; 
+  width: 95px; 
   margin-top: 10px;
 }
 
