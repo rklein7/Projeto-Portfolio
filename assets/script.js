@@ -25,4 +25,36 @@ document.addEventListener("DOMContentLoaded", function() {
       apresentacaoEscritaHome.classList.add('slide-in');
     }, 500); // Tempo em milissegundos
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Aguarde 500 milissegundos (ou o tempo desejado) antes de adicionar a classe
+    setTimeout(function() {
+      var apresentacaoSobre = document.querySelector('.apresentacaoSobre');
+      apresentacaoSobre.classList.add('slide-in');
+    }, 500); // Tempo em milissegundos
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Aguarde 500 milissegundos (ou o tempo desejado) antes de adicionar a classe
+    setTimeout(function() {
+      var infosPessoais = document.querySelector('.infosPessoais');
+      infosPessoais.classList.add('slide-in');
+    }, 500); // Tempo em milissegundos
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Aguarde 500 milissegundos (ou o tempo desejado) antes de adicionar a classe
+    setTimeout(function() {
+      var interessesContainer = document.querySelector('.interessesContainer');
+      interessesContainer.classList.add('slide-in');
+    }, 500); // Tempo em milissegundos
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Aguarde 500 milissegundos (ou o tempo desejado) antes de adicionar a classe
+    setTimeout(function() {
+      var apresentacaoProjetos = document.querySelector('.apresentacaoProjetos');
+      apresentacaoProjetos.classList.add('slide-in');
+    }, 500); // Tempo em milissegundos
+  });
   

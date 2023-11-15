@@ -315,7 +315,10 @@ body {
   position: relative;
   z-index: 1;
   margin-top: 0; 
+  
 }
+
+
 
 .containerImagem img {
   max-width: 100%; 
@@ -342,7 +345,7 @@ body {
   margin-bottom: 20px;
 }
 
-.interesses-container {
+.interessesContainer {
   display: flex;
   justify-content: center;
   gap: 20px; 
@@ -405,6 +408,38 @@ body {
   color: grey
 }
 
+.apresentacaoSobre {
+  /* ... outras propriedades ... */
+
+  transition: transform 1s ease-in-out;
+  transform: translateX(-200%);
+}
+
+.apresentacaoSobre.slide-in {
+  transform: translateX(0);
+}
+
+.infosPessoais {
+  /* ... outras propriedades ... */
+
+  transition: transform 1s ease-in-out;
+  transform: translateX(-300%);
+}
+
+.infosPessoais.slide-in {
+  transform: translateX(0);
+}
+
+.interessesContainer {
+  /* ... outras propriedades ... */
+
+  transition: transform 1s ease-in-out;
+  transform: translateY(350%);
+}
+
+.interessesContainer.slide-in {
+  transform: translateY(0);
+}
 /*---------------------------------- PROJETOS ----------------------------------*/
 
 .projetosContainer{
@@ -472,6 +507,7 @@ body {
 .projeto a :hover{
   color:#000
 }
+
 
 
 /*---------------------------------- SKILLS ----------------------------------*/
