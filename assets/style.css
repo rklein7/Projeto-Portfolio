@@ -271,7 +271,7 @@ body {
   /* ... outras propriedades ... */
 
   transition: transform 1s ease-in-out;
-  transform: translateY(-350%);
+  transform: translateY(-450%);
 }
 
 .linksContainer.slide-in {
@@ -391,6 +391,14 @@ body {
   width: 300px; 
 }
 
+.info:hover {
+  transform: scale(1.1)
+}
+
+.infosPessoais a {
+  text-decoration: none;
+}
+
 .info {
   text-align: left;
 }
@@ -423,7 +431,7 @@ body {
   /* ... outras propriedades ... */
 
   transition: transform 1s ease-in-out;
-  transform: translateX(-300%);
+  transform: translateX(-350%);
 }
 
 .infosPessoais.slide-in {
@@ -491,7 +499,7 @@ body {
   width: 70%;
   padding-left: 20px;
   background-color: var(--primary-background-color);
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: 65px;
 }
 
